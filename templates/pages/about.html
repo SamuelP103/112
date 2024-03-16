@@ -1,9 +1,11 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block title %}Home{% endblock title %}
 
 {% block content %}
 <h1>About me</h1>
 
 <p>Hello my name is Samuel and I am a student at SDGKU!</p>
+<img src="{% static 'img/cat.jpeg' %}" style="width:30%;">
+
 {% endblock content %}
